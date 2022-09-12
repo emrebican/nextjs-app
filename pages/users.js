@@ -17,7 +17,6 @@ const Users = ({ users }) => {
         <a
           className={styles.link}
           href="https://nextjs.org/docs/basic-features/data-fetching/get-static-props"
-          target="_blank"
         >
           getStaticProps
         </a>
@@ -25,7 +24,6 @@ const Users = ({ users }) => {
         <a
           className={styles.link}
           href="https://nextjs.org/docs/basic-features/data-fetching/get-server-side-props"
-          target="_blank"
         >
           getServerSideProps
         </a>

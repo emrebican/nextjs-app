@@ -16,7 +16,6 @@ const Characters = ({ characters }) => {
         <a
           className="link"
           href="https://nextjs.org/docs/basic-features/data-fetching/get-static-props"
-          target="_blank"
         >
           getStaticProps
         </a>
@@ -24,7 +23,6 @@ const Characters = ({ characters }) => {
         <a
           className="link"
           href="https://nextjs.org/docs/basic-features/data-fetching/get-static-paths"
-          target="_blank"
         >
           getStaticPaths
         </a>

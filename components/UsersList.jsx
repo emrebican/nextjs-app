@@ -4,13 +4,13 @@ import styles from '../styles/Userlist.module.css';
 
 const UsersList = ({ users }) => {
   const usersDisplay = users.map((user) => (
-    <Link href={`/users/${user.id}`}>
-      <a>
-        <li key={user.id} className={styles.card}>
+    <li key={user.id} className={styles.card}>
+      <Link href={`/users/${user.id}`}>
+        <a>
           <h3>{user.name}</h3>
-        </li>
-      </a>
-    </Link>
+        </a>
+      </Link>
+    </li>
   ));
   return (
     <ol className={styles.list}>
